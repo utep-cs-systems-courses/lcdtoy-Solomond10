@@ -22,23 +22,25 @@ main()
 
   //Creates lines from different directions
 
-  /*i = 20;
+void Star(){
+
+  i = 20;
   
   for (j=10; j<30; j++)
-    drawPixel(i, j, COLOR_BLACK);
+    drawPixel(i, j, COLOR_ORANGE);
 
   for (j=10; j<30; j++)
-  drawPixel(j, i, COLOR_BLACK);
+  drawPixel(j, i, COLOR_ORANGE);
  
   for (j=10; j<30; j++)
-    drawPixel(j, j, COLOR_BLACK);
+    drawPixel(j, j, COLOR_ORANGE);
 
   i = 30;
 
   for (j=10; j<30; j++)
-  drawPixel(i--, j, COLOR_BLACK);*/
+  drawPixel(i--, j, COLOR_ORANGE);
   
-
+}
   
 
   // draws house
